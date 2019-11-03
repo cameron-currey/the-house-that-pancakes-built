@@ -20,5 +20,5 @@ main.go - Creates a "WaiterXRayVision" along with a "Stack" and prints out its w
 *_test.go files use gocheck test framework library (https://labix.org/gocheck). I find the built in Golang testing functionality to be clunky and verbose. GoCheck is a lot more expressive with Assert function calls, supports traditional test framework Setup/TearDown, and organizes shared code across a "Suite". It ties in with the go test framework and works with "go test"
 
 ## To Run:
-Install Go
-go run main.go
+- Install Go
+- go run main.go
