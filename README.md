@@ -14,6 +14,7 @@ Revenge of the Pancakes Programming Challenge
 
  - waiter_xray_vision.go - A "WaiterXRayVision" is a talented individual who can "FlipDatStack" and show off while they do it with a callback function. They work from the top down on the stack, and flip the entire stack any time they encounter a pancake that is oriented differently.
 
-- main.go - Creates a "WaiterXRayVision" along with a "Stack" and prints out its work each time it does a flip to visualize the algorithm so all pancakes are happy face up
 
-- *_test.go files use gocheck test framework library (https://labix.org/gocheck). I find the built in Golang testing functionality to be clunky and verbose. GoCheck is a lot more expressive with Assert function calls, supports traditional test framework Setup/TearDown, and organizes shared code across a "Suite". It ties in with the go test framework and works with "go test"
+main.go - Creates a "WaiterXRayVision" along with a "Stack" and prints out its work each time it does a flip to visualize the algorithm so all pancakes are happy face up
+
+*_test.go files use gocheck test framework library (https://labix.org/gocheck). I find the built in Golang testing functionality to be clunky and verbose. GoCheck is a lot more expressive with Assert function calls, supports traditional test framework Setup/TearDown, and organizes shared code across a "Suite". It ties in with the go test framework and works with "go test"
